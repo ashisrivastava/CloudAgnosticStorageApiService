@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AzureSDK2.2DLLs/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Microsoft.WindowsAzure.Diagnostics.dll": {},
+          "lib/Microsoft.WindowsAzure.ServiceRuntime.dll": {},
+          "lib/Microsoft.WindowsAzure.StorageClient.dll": {}
+        },
+        "runtime": {
+          "lib/Microsoft.WindowsAzure.Diagnostics.dll": {},
+          "lib/Microsoft.WindowsAzure.ServiceRuntime.dll": {},
+          "lib/Microsoft.WindowsAzure.StorageClient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AzureSDK2.2DLLs/1.0.0": {
+      "sha512": "Qw7YrvMRDxnUr9iKb51JgyAO8PT50SpfjSMh6f0uparJeLzS7EqPgnz4fr8detGxOloa/dZAXp4Ck6dVoZYNeA==",
+      "type": "package",
+      "path": "azuresdk2.2dlls/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "azuresdk2.2dlls.1.0.0.nupkg.sha512",
+        "azuresdk2.2dlls.nuspec",
+        "lib/Microsoft.WindowsAzure.Diagnostics.dll",
+        "lib/Microsoft.WindowsAzure.ServiceRuntime.dll",
+        "lib/Microsoft.WindowsAzure.StorageClient.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AzureSDK2.2DLLs >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ashis\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\AshishS\\Study\\AWS\\CloudAgnosticStorageApiService\\CloudAgnosticStorageApiService\\src\\CloudAgnosticStorageAPI.csproj",
+      "projectName": "CloudAgnosticStorageAPI",
+      "projectPath": "C:\\AshishS\\Study\\AWS\\CloudAgnosticStorageApiService\\CloudAgnosticStorageApiService\\src\\CloudAgnosticStorageAPI.csproj",
+      "packagesPath": "C:\\Users\\ashis\\.nuget\\packages\\",
+      "outputPath": "C:\\AshishS\\Study\\AWS\\CloudAgnosticStorageApiService\\CloudAgnosticStorageApiService\\src\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ashis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "AzureSDK2.2DLLs": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.32, 3.1.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AzureSDK2.2DLLs 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "AzureSDK2.2DLLs",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

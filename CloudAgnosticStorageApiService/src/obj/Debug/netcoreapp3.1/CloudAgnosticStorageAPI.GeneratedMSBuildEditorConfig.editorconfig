@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = CloudAgnosticStorageAPI
+build_property.ProjectDir = C:\AshishS\Study\AWS\CloudAgnosticStorageApiService\CloudAgnosticStorageApiService\src\

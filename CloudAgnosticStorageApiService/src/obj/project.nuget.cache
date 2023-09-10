@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "mrQbNqy6HKIkz4VcVQGsBhwmt7TGWkGQNLQ7YiGPwTINAhOzsjj/aOD6e9bKN1WR+gPwtkxeAGTVTc3dlkW0NQ==",
+  "success": true,
+  "projectFilePath": "C:\\AshishS\\Study\\AWS\\CloudAgnosticStorageApiService\\CloudAgnosticStorageApiService\\src\\CloudAgnosticStorageAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ashis\\.nuget\\packages\\azuresdk2.2dlls\\1.0.0\\azuresdk2.2dlls.1.0.0.nupkg.sha512",
+    "C:\\Users\\ashis\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ashis\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ashis\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\ashis\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AzureSDK2.2DLLs 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "AzureSDK2.2DLLs",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

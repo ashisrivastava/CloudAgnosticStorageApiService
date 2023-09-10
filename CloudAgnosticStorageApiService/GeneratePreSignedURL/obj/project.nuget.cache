@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "nlb+xYHYQd9KM8PmotY9wOsbhGVNzIXgCZxLhuXcPa6XUpXqc9/Fml8nbv6NpZ0NBTptZd8XACosOfUG6neQ2A==",
+  "success": true,
+  "projectFilePath": "C:\\AshishS\\Study\\AWS\\CloudAgnosticStorageApiService\\CloudAgnosticStorageApiService\\GeneratePreSignedURL\\GeneratePreSignedURL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ashis\\.nuget\\packages\\awssdk.core\\3.7.6\\awssdk.core.3.7.6.nupkg.sha512",
+    "C:\\Users\\ashis\\.nuget\\packages\\awssdk.s3\\3.7.7.15\\awssdk.s3.3.7.7.15.nupkg.sha512",
+    "C:\\Users\\ashis\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ashis\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ashis\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\ashis\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
